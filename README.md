@@ -7,9 +7,8 @@ AWS × IaC × 監視 × CI/CD を一通り触る学習メモ。
 - CloudWatchで監視
 - CI/CDで plan → 承認 → apply
 
+```md
 ## 学習ログ
-### 2025-12-12
-- WSL2 + Ubuntu インストール
-- AWS CLI インストール
-- IAMユーザー `tomo-study` 作成
-- `aws sts get-caller-identity` 成功
+- 2025-12-12: [logs/20251212.md](./logs/20251212.md)
+- 2025-12-13: [logs/20251213.md](./logs/20251213.md)
+```
