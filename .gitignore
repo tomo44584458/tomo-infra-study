@@ -1,18 +1,58 @@
+########################################
 # Terraform
+########################################
 **/.terraform/
-**/terraform.tfstate
-**/terraform.tfstate.*
+**/*.tfstate
+**/*.tfstate.*
 **/crash.log
 **/crash.*.log
 **/*.tfvars
 **/*.tfvars.json
+**/override.tf
+**/override.tf.json
+**/*_override.tf
+**/*_override.tf.json
+.terraform.lock.hcl
 
-# Secrets (just in case)
-**/.aws/credentials
-**/.aws/config
+########################################
+# Secrets / Credentials (just in case)
+########################################
+**/.aws/
 **/.ssh/
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.crt
+**/*.cer
+**/.env
+**/.env.*
+**/secrets.*
+**/*secret*
+**/*token*
+**/*credential*
 
-# OS/editor
+########################################
+# Logs / Temp
+########################################
+**/*.log
+**/tmp/
+**/temp/
+**/.cache/
+
+########################################
+# OS / Editor
+########################################
 .DS_Store
 Thumbs.db
 .vscode/
+.idea/
+
+########################################
+# Node / Python (もし使ったら)
+########################################
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
